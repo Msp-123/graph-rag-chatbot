@@ -13,6 +13,22 @@ This repository includes:
 
 ---
 
+## What This Project Does
+
+This chatbot answers user questions by combining:
+
+1. **Retrieval**: Finds relevant information from **Neo4j** (graph data; can include nodes/relationships and optionally vector indexes depending on configuration).
+2. **Grounded generation**: Uses an **LLM** to generate a response based on the retrieved context.
+3. **UI**: A Streamlit interface that calls the API and renders chatbot responses.
+
+Typical use cases:
+
+- Q&A over structured domain data modeled as a graph
+- Knowledge assistance where relationships matter (e.g., hospitals ↔ doctors ↔ departments)
+- A stepping stone toward **Hybrid RAG** (graph + vector search) and **GraphRAG**
+
+---
+
 ## Architecture 
 
 Streamlit UI → FastAPI RAG Agent → Neo4j → LLM → Response → UI
