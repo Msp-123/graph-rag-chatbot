@@ -2,6 +2,8 @@
 
 A Dockerized **RAG (Retrieval-Augmented Generation)** chatbot that answers questions using a **Neo4j graph database** as the knowledge source and an **LLM** for response generation.
 
+<img width="1510" height="903" alt="image" src="https://github.com/user-attachments/assets/1d4acfa5-a64d-4a2e-8902-360496f496bb" />
+
 This repository includes:
 
 - **FastAPI** backend (`/hospital-rag-agent`)
