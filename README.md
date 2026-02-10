@@ -25,6 +25,7 @@ Streamlit UI → FastAPI RAG Agent → Neo4j → LLM → Response → UI
 - The response is returned to the UI
 
 ---
+<img width="1610" height="862" alt="image" src="https://github.com/user-attachments/assets/74d17bb9-be0f-420b-87ba-8a69c6433e08" />
 
 ## Requirements
 
