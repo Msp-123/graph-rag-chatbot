@@ -11,7 +11,7 @@ This repository includes:
 
 ---
 
-## Architecture (High Level)
+## Architecture 
 
 Streamlit UI → FastAPI RAG Agent → Neo4j → LLM → Response → UI
 
